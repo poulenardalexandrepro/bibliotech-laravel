@@ -8,13 +8,13 @@
 ---
 
 ## 🚀 Mise en route
-- [ ] Dépôt créé depuis le modèle, Codespace ouvert
-- [ ] L'application s'affiche (port 8000), phpMyAdmin aussi (port 8080)
-- [ ] `php artisan test --group=socle` : 8 tests verts
+- [x] Dépôt créé depuis le modèle, Codespace ouvert
+- [x] L'application s'affiche (port 8000), phpMyAdmin aussi (port 8080)
+- [x] `php artisan test --group=socle` : 8 tests verts
 
 ## 1️⃣ Routes, contrôleurs, vues
-- [ ] 🎓 Fiche [MVC et routage](cours/01-mvc-routage.md) + auto-évaluation
-- [ ] 🟢 1.1 Lire le trajet d'une requête (questions du guide)
+- [x] 🎓 Fiche [MVC et routage](cours/01-mvc-routage.md) + auto-évaluation
+- [x] 🟢 1.1 Lire le trajet d'une requête (questions du guide)
 - [ ] 🟢 1.2 Page Contact
 - [ ] 🟡 1.3 Liste des catégories
 - [ ] 🟡 1.4 Les livres d'une catégorie
