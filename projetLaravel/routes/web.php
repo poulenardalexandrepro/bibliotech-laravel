@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/contact', 'contact')->name('contact');
+
 // Accueil
 Route::get('/', [AccueilController::class, 'index'])->name('home');
 
