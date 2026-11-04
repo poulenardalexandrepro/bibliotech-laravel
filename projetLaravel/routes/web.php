@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 | route('livres.index') plutôt que '/livres' — si l'URL change, rien ne casse.
 */
 
+Route::view('/contact', 'contact')->name('contact');
 // Accueil
 Route::get('/', [AccueilController::class, 'index'])->name('home');
 
