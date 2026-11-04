@@ -15,11 +15,11 @@
 ## 1️⃣ Routes, contrôleurs, vues
 - [x] 🎓 Fiche [MVC et routage](cours/01-mvc-routage.md) + auto-évaluation
 - [x] 🟢 1.1 Lire le trajet d'une requête (questions du guide)
-- [ ] 🟢 1.2 Page Contact
-- [ ] 🟡 1.3 Liste des catégories
-- [ ] 🟡 1.4 Les livres d'une catégorie
-- [ ] 🔴 1.5 Page 404 personnalisée
-- [ ] ✅ `--group=seance-01` vert
+- [x] 🟢 1.2 Page Contact
+- [x] 🟡 1.3 Liste des catégories
+- [x] 🟡 1.4 Les livres d'une catégorie
+- [x] 🔴 1.5 Page 404 personnalisée
+- [x] ✅ `--group=seance-01` vert
 
 ## 2️⃣ Base de données & Eloquent
 - [ ] 🎓 Fiche [Migrations et relations](cours/02-eloquent-migrations.md) + auto-évaluation
