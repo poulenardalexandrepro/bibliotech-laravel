@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AccueilController;
+use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\LivreController;
 use Illuminate\Support\Facades\Route;
 
@@ -12,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 | ->name('…') donne un nom à la route : dans les vues on écrit
 | route('livres.index') plutôt que '/livres' — si l'URL change, rien ne casse.
 */
+
+Route::get('/categories', [CategorieController::class, 'index'])->name('categories.index');
+Route::get('/categories/{slug}', [CategorieController::class, 'show'])->name('categories.show');
 
 Route::view('/contact', 'contact')->name('contact');
 
